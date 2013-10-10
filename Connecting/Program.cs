@@ -8,7 +8,7 @@ namespace Connecting
     {
         static void Main(string[] args)
         {
-            // Make sure to setup auth.config!
+            // Make sure to configure the App.config in the solution directory
             String username = ConfigurationManager.AppSettings["username"];
             String password = ConfigurationManager.AppSettings["password"];
             String ewsUrl = ConfigurationManager.AppSettings["ews"];
